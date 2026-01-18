@@ -156,18 +156,20 @@ h1 {
   width: 52px;
   height: 52px;
   border-radius: 50%;
-  background: #fdecec;
+  background: #FFF1F1;
   display: flex;
   color: #F95555;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
-  margin-bottom: 20px;
+  margin: 0 auto 20px;
+  box-shadow: 0 8px 20px rgba(249, 85, 85, 0.45);
 }
 
 .ellipse-shape img {
   width: 22px;
+  filter: brightness(1.4) saturate(1.8);
 }
+
 
 .info-card h4 {
   font-size: 18px;
